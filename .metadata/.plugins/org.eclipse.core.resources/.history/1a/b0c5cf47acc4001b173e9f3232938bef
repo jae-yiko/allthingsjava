@@ -1,0 +1,34 @@
+package MyPackage;
+import java.util.Scanner;
+
+public class mod3w1hw1 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		int oneToFive ;
+		String whatRating = "type in a number from 1-5 and rate the movie ";
+		System.out.println(whatRating);
+		oneToFive = scan.nextInt();
+		switch (oneToFive) {
+		case 1:
+			System.out.println("terrible");
+			
+		case 2:
+			System.out.println("not the best");
+			
+		case 3:
+			System.out.println("it was okay");
+			
+		case 4:
+			System.out.println("Good");
+			
+		case 5:
+			System.out.println("Amazing!");
+		}
+		
+		
+		scan.close();
+	}
+
+}

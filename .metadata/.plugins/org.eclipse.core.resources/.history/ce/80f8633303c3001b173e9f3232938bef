@@ -1,0 +1,18 @@
+package MyPackage;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		int num=1;
+		char oneLetter = 'a';
+		float flNum = 1.55f;
+		double myNum = 1.1d;
+		boolean isJavaFun = true;
+		String name="jae";
+		
+		
+		System.out.println("the number is" + num)
+		
+	}
+
+}

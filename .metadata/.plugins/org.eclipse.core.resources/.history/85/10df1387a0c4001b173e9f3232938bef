@@ -1,0 +1,12 @@
+package MyPackage;
+
+public class Exceptions {
+
+	public static void main(String[] args) {
+//exception is an event that happens when we try to run our program that makes the program stops working  
+		String[] pets = {"dog", "cat", "fish"};
+		System.out.println(pets[3]);
+		
+	}
+
+}

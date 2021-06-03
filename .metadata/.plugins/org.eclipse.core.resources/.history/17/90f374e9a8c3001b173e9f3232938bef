@@ -1,0 +1,37 @@
+package MyPackage;
+import java.util.Scanner;
+
+public class practice {
+
+	public static void main(String[] args) {
+		String randomWord;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter a random word: ");
+		randomWord = scan.next();
+			
+		
+		String sentence = "The best key lime pie is still up for debate";
+		char index = sentence.charAt(2);
+		System.out.println(index);
+		
+		
+		String firstName ;
+		String lastName ;
+		System.out.println("enter a first name: ");
+		firstName = scan.nextLine();
+		System.out.println("enter a last name: ");
+		lastName = scan.nextLine();
+		System.out.println(firstName.concat(lastName));
+		
+		
+		String firstWord;
+		String startSentence = "check what this sentece starts with";
+		System.out.println(startSentence);
+		firstWord = scan.nextLine();
+		System.out.println(startSentence.startsWith(firstWord));
+		
+		
+		
+	}
+
+}

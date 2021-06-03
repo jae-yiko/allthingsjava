@@ -1,0 +1,24 @@
+package MyPackage;
+
+public class Exceptions {
+//https://www.youtube.com/watch?v=K_-3OLkXkzY
+	public static void main(String[] args) {
+//exception is an event that happens when we try to run our program that makes the program stops working  
+//exception is an event that happens when we click the run button that changes the flow of the program 
+//the reason why we handle exception errors is incase the user inputs something incorrectly it may shut the program down and thats not what we want. instead we want them to correct their inputs
+
+//------exception handling using string array-----------------------------		
+		try {
+			String[] pets = {"dog", "cat", "fish"};
+			System.out.println(pets[3]);
+		}
+		//catch is always needed after try and Exception e means to catch all errors
+		catch(Exception e) {
+			System.out.println("you cant use that index");
+		}
+//---exception handling using strings----------------------------
+//		int i = "jae";
+		
+	}
+
+}

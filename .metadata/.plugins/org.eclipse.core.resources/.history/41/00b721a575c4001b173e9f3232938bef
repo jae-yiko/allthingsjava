@@ -1,0 +1,33 @@
+package MyPackage;
+import java.util.Scanner;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		String[] gems = {"moissinate", "diamond", "sapphire"};
+//		System.out.println(gems[0]);
+		
+		Scanner scan = new Scanner(System.in);
+		String[] gems0 = new String[] {"moissinate", "diamond", "sapphire", "Pearl", "Morginite"};
+		String[] gems1 = new String[5];//<<this is setting a limit of 5 spaces in the gem1 array
+		
+		System.out.println("plug in a gem name that you want to add into this array");
+//		String userInput;
+//		userInput = scan.nextLine();
+		
+		for(int i=0; i<gems1.length; i++) 
+		{
+			gems1[i] = scan.nextLine();
+		}
+		
+		System.out.println("array values are:");
+		for (int i=0; i<gems1.length; i++ )
+		{
+			System.out.println(gems1[i]);
+		}
+		
+		scan.close();
+	}
+
+}

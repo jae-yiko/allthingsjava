@@ -1,0 +1,68 @@
+package MyPackage;
+import java.util.Scanner;
+
+public class mod3w1hw1 {
+	static int num1;
+	static int num2;
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		int calculate ;
+
+		String calculator1 = "1: addition, 2:subtraction, 3:multiplication, 4:division, 5:exit";
+		String number1str = "plug in your first number";
+		String number2str = "plug in your second number";
+		System.out.println(number1str);
+		num1 = scan.nextInt();
+		System.out.println(number2str);
+		num2 = scan.nextInt();
+		System.out.println(calculator1);
+		calculate = scan.nextInt();
+		switch (calculate) {
+		case 1:
+			Add();
+			break;
+			
+		case 2:
+			Subtract();
+			break;
+			
+		case 3:
+			Multiply();
+			break;
+			
+		case 4:
+			Divison();
+			break;
+			
+		case 5:
+			Exit();
+			break;
+		}
+	
+		scan.close();
+	}
+	
+		public static void Add() {
+			System.out.println(num1+num2);
+		}
+		
+		public static void Subtract() {
+			System.out.println(num1-num2);
+		}
+		
+		public static void Multiply() {
+			System.out.println(num1*num2);
+		}
+		
+		public static void Divison() {
+//			System.out.println(num1/num2+"."+(num1%num2));
+			System.out.println(num1/num2);
+		}
+		
+		public static void Exit() {
+			System.exit(0);
+		}
+
+}

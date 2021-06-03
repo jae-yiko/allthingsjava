@@ -1,0 +1,11 @@
+package MyPackage;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] gems = {"moissinate", "diamond", "sapphire"};
+		System.out.println(gems[0]);
+	}
+
+}
