@@ -32,6 +32,7 @@ public class Student extends Person implements PersonInterface {
 		System.out.println("subjects: " + this.subject1 + ", " + this.subject2 + ", " + this.subject3);
 		System.out.println("major: " + this.major);
 		System.out.println("totalsubjects: " + this.totalsubjects);
+		System.out.println(ORGANIZATION);
 	}
 	
 	//this is the interface part

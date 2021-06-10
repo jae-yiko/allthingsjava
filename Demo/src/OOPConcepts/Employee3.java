@@ -27,7 +27,7 @@ public class Employee3 extends Person implements PersonInterface {
 		System.out.println("Id: " + this.emp_id);
 		super.display();
 		System.out.println("Salary: " + this.emp_salary);
-
+		System.out.println(ORGANIZATION);
 	}
 	
 	//this is the interface part
@@ -42,6 +42,7 @@ public class Employee3 extends Person implements PersonInterface {
 		System.out.println(this.position + ", " + this.department);
 		return this.position + " " + this.department;
 	}
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

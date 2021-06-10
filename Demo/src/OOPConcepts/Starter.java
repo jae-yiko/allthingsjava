@@ -80,7 +80,7 @@ public class Starter {
 		stud1.displayit();
 		System.out.println("Average: " + stud1.calculate(totalsubjects));
 		String sup3 = stud1.supervisor(position, department);
-		System.out.println(stud1.ORGANIZATION);
+		
 		Person.totalPerson();
 		
 		scan.close();
